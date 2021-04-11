@@ -117,7 +117,6 @@ public void resolverProblema() {
             mochila.add(tmp);
             solucion[tmp.getPosicion()]= 1;
             pesoMochila+=tmp.getPeso();
-            
         }
         posicion++;        
     }     
